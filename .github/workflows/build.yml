@@ -8,12 +8,14 @@ on:
       - 'extern/**'
       - 'include/**'
       - 'src/**'
+      - 'CMakeLists.txt'
   pull_request:
     branches: [ main ]
     paths:
       - 'extern/**'
       - 'include/**'
       - 'src/**'
+      - 'CMakeLists.txt'
 
 env:
   # Customize the CMake build type here (Release, Debug, RelWithDebInfo, etc.)
